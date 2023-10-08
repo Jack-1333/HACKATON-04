@@ -1,0 +1,70 @@
+:root {
+    --fondo: #e7dfcf;
+    --black: #2c2d2a;
+    --colorborde:#c0b091;
+    --fontfamilypriamary: 'Montserrat', sans-serif;
+    --fontfamilysecondary: 'EB Garamond', serif;
+}
+html {
+    font-size: 62.5%;/*Se utiliza para resetear los pixeles y utilizae rem.*/
+    box-sizing: border-box;
+}
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: var(--fondo);
+    font-size: 1.6rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/*Header*/
+.header {
+    display: flex;
+    justify-content: center;
+}
+.logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.header__logos--hamburguer {
+    height: 5rem;
+}
+.header__logos--logotipo {
+    height: 5rem;
+    margin: .5rem 2rem;
+}
+.content {
+    display: flex;
+    justify-self: center;
+}
+.content__menu {
+    font-family: var(--fontfamilypriamary);
+    font-weight: 400;
+    margin: 1.5rem 1rem 0 5rem;
+}
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.icons__search {
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+.icons__user {
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.icons__bag {
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.hr {
+    border: 1px solid var(--colorborde);
+    opacity: 80%;
+}
