@@ -19,22 +19,22 @@
 </head>
 
 <header class="header">
-    <div class="logos">
-        <img class="header__logos--hamburguer" src="img/hamburguer.svg" alt="hamburguer">
-        <img class="header__logos--logotipo" src="img/logotipo.svg" alt="logotipo">
+    <div class="header__logos">
+        <img class="header__logos--image" src="img/hamburguer.svg" alt="hamburguer">
+        <img class="header__logos--image" src="img/logotipo.svg" alt="logotipo">
     </div>
 
-    <div class="content">
-        <h2 class="content__menu">Mask</h2>
-        <h2 class="content__menu">Protectores</h2>
-        <h2 class="content__menu">Botellas</h2>
-        <h2 class="content__menu">Accesorios</h2>
+    <div class="header__content">
+        <h2 class="header__content--text">Mask</h2>
+        <h2 class="header__content--text">Protectores</h2>
+        <h2 class="header__content--text">Botellas</h2>
+        <h2 class="header__content--text">Accesorios</h2>
     </div>
 
-    <div class="icons">
-        <img class="icons__search" src="img/search.svg" alt="search">
-        <img class="icons__user" src="img/user.svg" alt="user">
-        <img class="icons__bag" src="img/bag.svg" alt="bag">
+    <div class="header__icons">
+        <img class="header__icons--image" src="img/search.svg" alt="search">
+        <img class="header__icons--image" src="img/user.svg" alt="user">
+        <img class="header__icons--image" src="img/bag.svg" alt="bag">
     </div>
 </header>
 <hr class="hr">
@@ -55,46 +55,47 @@
                 Una botella de plastico tarda alrededor de 450 años en descomponerse.
             </p>
 
-            <a class="container__text--link">Comprar Ahora</a>
-            <a class="container__text--arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right"
-                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
+            <div class="container__link">
+                <a class="container__link--text">Comprar Ahora</a>
+
+                <svg class="container__link--arrow" xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-arrow-narrow-right" width="48" height="48" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M5 12l14 0" />
                     <path d="M15 16l4 -4" />
                     <path d="M15 8l4 4" />
                 </svg>
-            </a>
+
+            </div>
         </div>
 
         <div class="container__image">
-            <img src="img/bottle_w_beach.png" alt="">
+            <img class="container__image--bottle" src="img/bottle_w_beach.png" alt="Bottle">
 
         </div>
 
         <div class="container__nextpage">
-            <p class="container__nextpage--page">1/4</p>
-            <a class="container__nextpage--arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-left"
-                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M5 12l14 0" />
-                    <path d="M5 12l4 4" />
-                    <path d="M5 12l4 -4" />
-                </svg>
-            </a>
-            <a class="container__nextpage--arrow">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right"
-                    width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M5 12l14 0" />
-                    <path d="M15 16l4 -4" />
-                    <path d="M15 8l4 4" />
-                </svg>
-            </a>
+            <a class="container__nextpage--page">1 / 4</a>
+
+            <svg class="container__nextpage--arrow" xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-arrow-narrow-left" width="48" height="48" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 12l14 0" />
+                <path d="M5 12l4 4" />
+                <path d="M5 12l4 -4" />
+            </svg>
+
+            <svg class="container__nextpage--arrow" xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-arrow-narrow-right" width="48" height="48" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 12l14 0" />
+                <path d="M15 16l4 -4" />
+                <path d="M15 8l4 4" />
+            </svg>
+
         </div>
     </main>
 
