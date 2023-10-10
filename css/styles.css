@@ -67,14 +67,14 @@ body {
 
 .header__icons {
     display: flex;
-    justify-content: left;
+    justify-content: right;
     gap: .2rem;
 }
 
 .header__icons--image {
     margin-top: 1.4rem;
     height: .9rem;
-    justify-content: right;
+    
 }
 
 /*Pantallas de 410px a mas*/
@@ -204,6 +204,7 @@ body {
         margin-top: 1.4rem;
         height: 1.7rem;
         justify-content: right;
+        
     }
 }
 
