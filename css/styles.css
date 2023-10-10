@@ -35,7 +35,7 @@ body {
 .header__logos {
     display: flex;
     justify-content: left;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .header__logos--image1 {
@@ -61,8 +61,10 @@ body {
 .header__content--text {
     font-family: var(--fontfamilypriamary);
     font-weight: 400;
-    font-size: 1rem;
-    margin: 1.2rem 0;
+    font-size: .7rem;
+    margin: 1.45rem 0;
+    text-align: center;
+    max-width: 100%
 }
 
 .header__icons {
