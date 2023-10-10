@@ -41,24 +41,27 @@
 
 <body>
     <main class="container">
-        <div class="container__text">
-            <h3 class="container__text--little">Botella Closca</h3>
-            <h3 class="container__text--big">Beach</h3>
-            <p class="container__text--medium">s/99.99</p>
+        <div class="content__title">
+            <h3 class="content__title--little">Botella Closca</h3>
+            <h3 class="content__title--big">Beach</h3>
+            <p class="content__title--medium">s/99.99</p>
+            <a class="content__title--nextpage">1/4</a>
+        </div>
+        <div class="content">
+            <img class="content__bottle" src="img/bottle_w_beach.png" alt="Bottle">
 
-            <p class="container__text--paragraph1">
-                En 20 años, exixtirán mas botellas que peces en nuestros océanos
-            </p>
+            <div class="content__nextpage">
 
-            <p class="container__text--paragraph2">
-                La contaminación plastica daña a más de 100.000 animales marinos cada nño.
-                Una botella de plastico tarda alrededor de 450 años en descomponerse.
-            </p>
+                <svg class="content__nextpage--arrowleft" xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-arrow-narrow-left" width="48" height="48" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 12l14 0" />
+                    <path d="M5 12l4 4" />
+                    <path d="M5 12l4 -4" />
+                </svg>
 
-            <div class="container__link">
-                <a class="container__link--text">Comprar Ahora</a>
-
-                <svg class="container__link--arrow" xmlns="http://www.w3.org/2000/svg"
+                <svg class="content__nextpage--arrowright" xmlns="http://www.w3.org/2000/svg"
                     class="icon icon-tabler icon-tabler-arrow-narrow-right" width="48" height="48" viewBox="0 0 24 24"
                     stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -69,33 +72,28 @@
 
             </div>
         </div>
+        <div class="content__text">
+            <p class="content__text--paragraph1">
+                En 20 años, exixtirán mas botellas que peces en nuestros océanos
+            </p>
 
-        <div class="container__image">
-            <img class="container__image--bottle" src="img/bottle_w_beach.png" alt="Bottle">
+            <p class="content__text--paragraph2">
+                La contaminación plastica daña a más de 100.000 animales marinos cada nño.
+                Una botella de plastico tarda alrededor de 450 años en descomponerse.
+            </p>
 
-        </div>
+            <div class="content__link">
+                <a class="content__link--text">Comprar Ahora</a>
 
-        <div class="container__nextpage">
-            <a class="container__nextpage--page">1 / 4</a>
-
-            <svg class="container__nextpage--arrow" xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-arrow-narrow-left" width="48" height="48" viewBox="0 0 24 24"
-                stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M5 12l14 0" />
-                <path d="M5 12l4 4" />
-                <path d="M5 12l4 -4" />
-            </svg>
-
-            <svg class="container__nextpage--arrow" xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-arrow-narrow-right" width="48" height="48" viewBox="0 0 24 24"
-                stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M5 12l14 0" />
-                <path d="M15 16l4 -4" />
-                <path d="M15 8l4 4" />
-            </svg>
-
+                <svg class="content__link--arrow" xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-arrow-narrow-right" width="48" height="48" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 12l14 0" />
+                    <path d="M15 16l4 -4" />
+                    <path d="M15 8l4 4" />
+                </svg>
+            </div>
         </div>
     </main>
 
